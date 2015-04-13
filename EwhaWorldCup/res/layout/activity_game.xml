@@ -1,0 +1,109 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/game_background"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:paddingLeft="40dp"
+    android:paddingRight="40dp"
+    tools:context="com.appnight.ewhaworldcup.GameActivity" >
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/f_1" >
+
+        <ImageButton
+            android:id="@+id/imageButton_userimg1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@null"
+            android:src="@drawable/ic_launcher" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center" >
+
+            <View
+                android:id="@+id/emiter_star_one"
+                android:layout_width="1dp"
+                android:layout_height="1dp" />
+
+            <View
+                android:id="@+id/emiter_star_two"
+                android:layout_width="1dp"
+                android:layout_height="1dp"
+                android:layout_marginBottom="8dp"
+                android:layout_marginRight="8dp" />
+
+            <View
+                android:id="@+id/emiter_star_three"
+                android:layout_width="1dp"
+                android:layout_height="1dp"
+                android:layout_marginBottom="8dp" />
+
+            <View
+                android:id="@+id/emiter_star_four"
+                android:layout_width="1dp"
+                android:layout_height="1dp"
+                android:layout_marginBottom="8dp"
+                android:layout_marginLeft="8dp" />
+
+            <View
+                android:id="@+id/emiter_star_five"
+                android:layout_width="1dp"
+                android:layout_height="1dp"
+                android:layout_marginLeft="8dp" />
+
+            <View
+                android:id="@+id/emiter_star_six"
+                android:layout_width="1dp"
+                android:layout_height="1dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="8dp" />
+
+            <View
+                android:id="@+id/emiter_star_seven"
+                android:layout_width="1dp"
+                android:layout_height="1dp"
+                android:layout_marginLeft="8dp" />
+
+            <View
+                android:id="@+id/emiter_star_eight"
+                android:layout_width="1dp"
+                android:layout_height="1dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginTop="8dp" />
+
+            <View
+                android:id="@+id/emiter_star_nine"
+                android:layout_width="1dp"
+                android:layout_height="1dp"
+                android:layout_marginRight="8dp" />
+        </FrameLayout>
+    </FrameLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" />
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/f_2" >
+
+        <ImageButton
+            android:id="@+id/imageButton_userimg2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@null"
+            android:src="@drawable/ic_launcher" />
+    </FrameLayout>
+
+</LinearLayout>
